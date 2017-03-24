@@ -121,6 +121,15 @@
   .dropdown-menu li a:hover {
       background-color: red !important;
   }
+  .langage-off:hover{
+	  color: #fff !important;
+  }
+  .langage-off{
+	  color: #777 !important;
+  }
+  .langage-on{
+	  color: #d5d5d5 !important;
+  }
   footer {
       background-color: #2d2d30;
       color: #f5f5f5;
