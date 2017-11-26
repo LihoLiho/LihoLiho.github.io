@@ -237,15 +237,7 @@
 	</form>
     </div>
 </div>
-
-<div class="row text-center">
-	<h3 class="text-center">
-	Find us on social media:<br><br></h3>
-    <div id="facebook" class="responsive">
-    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAMindOffKilter%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-    width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-    </div>
-</div>
+<div id="maDiv"></div>
 
 <!-- Footer -->
 <footer class="text-center">
@@ -284,6 +276,9 @@ $(document).ready(function(){
     } // End if
   });
 })
+if($(window).width() > 550) { //la taille que tu souhaites
+    $("#maDiv").append('<div class="row text-center">'+'<h3 class="text-center">Find us on social media<br><br></h3>'
+    +'<div id="facebook" class="responsive"> <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAMindOffKilter%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"    width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"> </iframe></div></div>');}
 </script>
 </body>
 </html>
