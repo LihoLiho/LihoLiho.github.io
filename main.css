@@ -10,7 +10,7 @@
       color: #111;
   }
   .container {
-      padding: 80px 120px;
+      padding: 80px 12%;
   }
   .person {
       border: 10px solid transparent;
@@ -33,7 +33,7 @@
   .carousel-caption h3 {
       color: #fff !important;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 100px) {
     .carousel-caption {
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
